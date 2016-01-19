@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle type detector</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle type detector</h1>
+
+      <form id="triangle">
+        <div class="form-group">
+          <label for="side">Enter your triangles side lengths to determine its type</label>
+          <ul>
+            <li><input id="side1" type="number" placeholder="side1"></li>
+            <li><input id="side2" type="number" placeholder="side2"></li>
+            <li><input id="side3" type="number" placeholder="side3"></li>
+          </ul>
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="isosceles">
+        <p>Your triangle is an isosceles!</p>
+      </div>
+      <div id="equilateral">
+        <p>Your triangle is an isosceles!</p>
+      </div>
+      <div id="scalene">
+        <p>Your triangle is an isosceles!</p>
+      </div>
+      <div id="notTriangle">
+        <p>Your dimensions do not make a triangle</p>
+      </div>
+    </div>
+  </body>
+</html>
